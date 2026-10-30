@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lantame Randy Mark — Computer Engineering student at KNUST. Software engineering, data science, and project archive.">
+  <title>Randy Mark — Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <canvas id="rain" aria-hidden="true"></canvas>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <div class="wrap">
+
+    <!-- Boot sequence -->
+    <div class="boot" aria-hidden="true">
+      <div><span class="ok">[ OK ]</span> connection established</div>
+      <div><span class="ok">[ OK ]</span> loading identity: randy_mark</div>
+      <div><span class="ok">[ OK ]</span> location: knust · kumasi-gh</div>
+      <div><span class="ok">[ OK ]</span> access granted</div>
+    </div>
+
+    <!-- Hero -->
+    <header>
+      <h1 class="name">Randy Mark</h1>
+      <p class="role">
+        <span class="hl">Lantame Randy Mark</span> — Computer Engineering student at
+        <span class="hl">KNUST</span> (Kumasi). Building toward
+        <span class="tag">software engineering</span> and
+        <span class="tag">data science</span>. Python is my primary weapon.
+      </p>
+      <div class="cta-row">
+        <a class="btn primary" href="#projects">./view projects</a>
+        <a class="btn" href="#research">./research</a>
+        <a class="btn" href="#contact">./contact</a>
+      </div>
+    </header>
+
+    <!-- About / Currently Working On -->
+    <section id="about">
+      <div class="sec-head">about.md</div>
+      <div class="term">
+        <div class="term-bar"><span class="dot"></span> status — live</div>
+        <div class="term-body about-body">
+          <p>Computer Engineering undergraduate focused on building useful systems — from small tools to full applications. I treat this site as a long-term personal repository for projects, experiments, reports, and research.</p>
+          <p class="currently"><span class="k">currently_working_on</span> → expanding this portfolio into a living archive · refining existing projects · exploring data pipelines and practical ML tools</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <div class="sec-head">skills.log</div>
+      <div class="term">
+        <div class="term-bar"><span class="dot"></span> bash — 80x24</div>
+        <div class="term-body">
+          <div><span class="k">language</span>&nbsp; <span class="v">Python</span><span class="bar"><i style="width:92%"></i></span></div>
+          <div><span class="k">domain__</span>&nbsp; <span class="v">Data Science</span><span class="bar"><i style="width:75%"></i></span></div>
+          <div><span class="k">domain__</span>&nbsp; <span class="v">Software Engineering</span><span class="bar"><i style="width:80%"></i></span></div>
+          <div><span class="k">builds___</span> <span class="v">sales systems · mini games · web apps · data tools</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects (rendered from data/projects.json) -->
+    <section id="projects">
+      <div class="sec-head">projects.ls</div>
+      <div id="projects-list">
+        <!-- populated by js/main.js -->
+        <div class="loading">loading projects...</div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <div class="sec-head">research.log</div>
+      <div id="research-list">
+        <!-- populated by js/main.js -->
+        <div class="loading">loading research...</div>
+      </div>
+      <p class="empty-note" id="research-empty" hidden>
+        No formal publications yet. This section will hold reports, papers, technical write-ups, and experiment logs as they are produced.
+      </p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="sec-head">contact.sh</div>
+      <div class="term">
+        <div class="term-bar"><span class="dot"></span> open channels</div>
+        <div class="term-body contact-body">
+          <div><span class="k">email____</span> <a href="mailto:randylantame@gmail.com">randylantame@gmail.com</a></div>
+          <div><span class="k">email_alt</span> <a href="mailto:randylanta2@gmail.com">randylanta2@gmail.com</a></div>
+          <div><span class="k">github___</span> <a href="https://github.com/Randy1-2" target="_blank" rel="noopener">github.com/Randy1-2</a></div>
+          <div><span class="k">linkedin_</span> <a href="https://www.linkedin.com/in/randy-lantame-93140a371" target="_blank" rel="noopener">linkedin.com/in/randy-lantame</a></div>
+          <div><span class="k">location_</span> <span class="v">KNUST · Kumasi, Ghana</span></div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>lantame randy mark // computer engineering // knust</div>
+      <div>portfolio archive · 2025–</div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

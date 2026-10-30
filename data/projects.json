@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Ranime",
+    "description": "A personal web project, live and deployed on Vercel.",
+    "stack": "python · web",
+    "url": "https://ranime-cnr1.vercel.app",
+    "linkLabel": "ranime-cnr1.vercel.app",
+    "status": "live"
+  },
+  {
+    "title": "DevArc",
+    "description": "Developer archive / tools project deployed on Vercel.",
+    "stack": "web",
+    "url": "https://devarc-mauve.vercel.app",
+    "linkLabel": "devarc-mauve.vercel.app",
+    "status": "live"
+  },
+  {
+    "title": "Knowledge Miner",
+    "description": "Knowledge mining tool by Randydev_py — extracts and organizes information.",
+    "stack": "python",
+    "status": "in development"
+  },
+  {
+    "title": "SonRise Sales & Stock System",
+    "description": "A book and stationery sales/stock system for a school — tracks shared stock across multiple classes instead of duplicating entries per class.",
+    "stack": "python · flask · json",
+    "status": "completed"
+  },
+  {
+    "title": "Mini Games",
+    "description": "A set of small Python games built for practice — logic-driven, lightweight, no dependencies.",
+    "stack": "python",
+    "status": "practice / archive"
+  }
+]
