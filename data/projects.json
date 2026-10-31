@@ -11,8 +11,8 @@
     "title": "DevArc",
     "description": "Developer archive / tools project deployed on Vercel.",
     "stack": "web",
-    "url": "https://devarc-mauve.vercel.app",
-    "linkLabel": "devarc-mauve.vercel.app",
+    "url": "https://devarc-lemon.vercel.app",
+    "linkLabel": "devarc-lemon.vercel.app",
     "status": "live"
   },
   {
